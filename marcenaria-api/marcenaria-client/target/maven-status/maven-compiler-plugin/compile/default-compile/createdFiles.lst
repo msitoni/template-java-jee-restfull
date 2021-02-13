@@ -1,0 +1,6 @@
+br\com\marcenaria\client\base\BaseService.class
+br\com\marcenaria\client\exception\BusinessException.class
+br\com\marcenaria\client\AuthorizationService.class
+br\com\marcenaria\client\util\DataUtil.class
+br\com\marcenaria\client\base\BaseServiceEntity.class
+br\com\marcenaria\client\base\ListWrapper.class

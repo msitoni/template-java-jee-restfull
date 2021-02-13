@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="marcenaria-war-0.0.1-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <dependent-module archiveName="marcenaria-ejb-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/marcenaria-ejb/marcenaria-ejb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="marcenaria-client-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/marcenaria-client/marcenaria-client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="marcenaria-jpa-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/marcenaria-jpa/marcenaria-jpa">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="marcenaria-war"/>
+        <property name="java-output-path" value="/marcenaria-war/build/classes"/>
+    </wb-module>
+</project-modules>

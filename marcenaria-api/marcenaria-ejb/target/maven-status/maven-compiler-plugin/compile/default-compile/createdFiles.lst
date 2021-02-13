@@ -1,0 +1,14 @@
+br\com\marcenaria\ejb\base\BaseServiceEntityImpl.class
+br\com\marcenaria\ejb\business\IntegrityConstraintViolationException.class
+br\com\marcenaria\ejb\business\AuthenticationException.class
+br\com\marcenaria\ejb\business\UnauthorizedException.class
+br\com\marcenaria\ejb\base\OperationOR.class
+br\com\marcenaria\ejb\base\OperationValue.class
+br\com\marcenaria\ejb\base\BaseServiceImpl$1.class
+br\com\marcenaria\ejb\base\SQLUtil.class
+br\com\marcenaria\ejb\base\BaseServiceImpl.class
+br\com\marcenaria\ejb\AuthorizationServiceImpl.class
+br\com\marcenaria\ejb\business\UnauthorizedCooperativaException.class
+br\com\marcenaria\ejb\util\JWTUtil.class
+br\com\marcenaria\ejb\business\RecordNotFoundException.class
+br\com\marcenaria\ejb\type\OperationType.class
